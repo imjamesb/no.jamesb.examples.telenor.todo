@@ -39,6 +39,7 @@ A list of research articles that was used to prepare and create this project.
   (2022-11-29 21:38) - This has been used to learn how to format and lint the
   code written in [Visual Studio Code](https://code.visualstudio.com).
 - [Maven Checkstyle Plugin - Usage](https://maven.apache.org/plugins/maven-checkstyle-plugin/usage.html) (2022-11-29 23:17) - This documentation was used to understand the setup of [checkstyle](https://checkstyle.sourceforge.io/) for Maven.
+- [nektos/act: Run your GitHub Actions locally 🚀](https://github.com/nektos/act) (2022-11-30 00:07)
 
 ## Todos
 
@@ -47,7 +48,7 @@ A list of research articles that was used to prepare and create this project.
       work on the project.
 - [*] Print Hello World and make it run.
 - [*] Add linter and formatter.
-- [ ] Add CI to check linting and formatting.
+- [*] Add CI to check linting and formatting.
 - [ ] Add a function that returns `Hello {name}`.
 - [ ] Add a test to test the new function.
 - [ ] Add a CI step to test the code.
