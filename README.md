@@ -41,10 +41,10 @@ A list of research articles that was used to prepare and create this project.
 
 ## Todos
 
-- [ ] Set up Editor for Java development.
-- [ ] Set up a development container so it is unnecessary to install Java to
+- [*] Set up Editor for Java development.
+- [*] Set up a development container so it is unnecessary to install Java to
       work on the project.
-- [ ] Print Hello World and make it run.
+- [*] Print Hello World and make it run.
 - [ ] Add linter and formatter.
 - [ ] Add CI to check linting and formatting.
 - [ ] Add a function that returns `Hello {name}`.
