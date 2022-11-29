@@ -16,29 +16,25 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
-		
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
-			"settings": { 
+			"settings": {
 				"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
 			},
-			
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"vscjava.vscode-java-pack"
+				"vscjava.vscode-java-pack",
+				"denoland.vscode-deno"
 			]
 		}
 	},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
-
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
 }
