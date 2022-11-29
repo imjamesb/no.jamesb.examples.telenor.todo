@@ -12,6 +12,20 @@
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "denoland.vscode-deno"
 	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2,
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": true
+	},
 	"java.configuration.updateBuildConfiguration": "automatic",
-	"explorer.compactFolders": true
+	"explorer.compactFolders": true,
+	"java.format.enabled": true,
+	"java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+	"java.format.settings.profile": "GoogleStyle",
+	"java.format.comments.enabled": true,
+	"java.format.onType.enabled": false,
+	"java.checkstyle.configuration": "google_checkstyle.xml",
+	"java.checkstyle.version": "10.5.0",
 }
