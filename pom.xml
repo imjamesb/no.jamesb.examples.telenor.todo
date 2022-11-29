@@ -69,15 +69,6 @@
             <failsOnError>true</failsOnError>
             <linkXRef>false</linkXRef>
           </configuration>
-          <executions>
-            <execution>
-              <id>validate_fmt</id>
-              <phase>validate</phase>
-              <goals>
-                <goal>check</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
       </plugins>
     </pluginManagement>
