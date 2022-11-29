@@ -34,3 +34,7 @@ will create a RESTful API.
 ## Research articles
 
 A list of research articles that was used to prepare and create this project.
+
+- [Formatting, linting, and code analysis for Java in Visual Studio Code](https://code.visualstudio.com/docs/java/java-linting)
+  (2022-11-29 21:38) - This has been used to learn how to format and lint the
+  code written in [Visual Studio Code](https://code.visualstudio.com).
