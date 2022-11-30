@@ -33,17 +33,17 @@ will create a RESTful API.
 
 ## Todos
 
-- [*] Set up Editor for Java development.
-- [*] Set up a development container so it is unnecessary to install Java to
+- [x] Set up Editor for Java development.
+- [x] Set up a development container so it is unnecessary to install Java to
   work on the project.
-- [*] Print Hello World and make it run.
-- [*] Add linter and formatter.
-- [*] Add CI to check linting and formatting.
-- [*] Configure the project for Springboot.
-- [*] Add a HTTP route for `GET /:name` which responds with plain text,
+- [x] Print Hello World and make it run.
+- [x] Add linter and formatter.
+- [x] Add CI to check linting and formatting.
+- [x] Configure the project for Springboot.
+- [x] Add a HTTP route for `GET /:name` which responds with plain text,
   `hello {name}`.
-- [*] Add a test for `GET /:name`.
-- [*] Define a database structure for the todo application.
-- [*] Create a docker-compose for local development.
-- [*] Create a postgres database in the docker-compose file for local development.
+- [x] Add a test for `GET /:name`.
+- [x] Define a database structure for the todo application.
+- [x] Create a docker-compose for local development.
+- [x] Create a postgres database in the docker-compose file for local development.
 - [ ] Use Spring ORM to recreate tha database structure in Java.
