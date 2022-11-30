@@ -28,7 +28,8 @@
 			"extensions": [
 				"vscjava.vscode-java-pack",
 				"denoland.vscode-deno",
-				"shengchen.vscode-checkstyle"
+				"shengchen.vscode-checkstyle",
+				"matt-meyers.vscode-dbml"
 			]
 		}
 	},
