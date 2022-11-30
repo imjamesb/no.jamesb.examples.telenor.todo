@@ -38,22 +38,28 @@ A list of research articles that was used to prepare and create this project.
 - [Formatting, linting, and code analysis for Java in Visual Studio Code](https://code.visualstudio.com/docs/java/java-linting)
   (2022-11-29 21:38) - This has been used to learn how to format and lint the
   code written in [Visual Studio Code](https://code.visualstudio.com).
-- [Maven Checkstyle Plugin - Usage](https://maven.apache.org/plugins/maven-checkstyle-plugin/usage.html) (2022-11-29 23:17) - This documentation was used to understand the setup of [checkstyle](https://checkstyle.sourceforge.io/) for Maven.
-- [nektos/act: Run your GitHub Actions locally 🚀](https://github.com/nektos/act) (2022-11-30 00:07)
-- [Spring Documentation](https://docs.spring.io) (2022-11-30 04:03) - Documentation was used to learn about the spring framework.
+- [Maven Checkstyle Plugin - Usage](https://maven.apache.org/plugins/maven-checkstyle-plugin/usage.html)
+  (2022-11-29 23:17) - This documentation was used to understand the setup of
+  [checkstyle](https://checkstyle.sourceforge.io/) for Maven.
+- [nektos/act: Run your GitHub Actions locally 🚀](https://github.com/nektos/act)
+  (2022-11-30 00:07)
+- [Spring Documentation](https://docs.spring.io) (2022-11-30 04:03) -
+  Documentation was used to learn about the spring framework.
 
 ## Todos
 
 - [*] Set up Editor for Java development.
 - [*] Set up a development container so it is unnecessary to install Java to
-      work on the project.
+  work on the project.
 - [*] Print Hello World and make it run.
 - [*] Add linter and formatter.
 - [*] Add CI to check linting and formatting.
 - [ ] Add a function that returns `Hello {name}`.
 - [ ] Configure the project for Springboot.
-- [ ] Add a HTTP route for `GET /:name` which responds with plain text, `hello {name}`.
-- [ ] Add a deployment step that runs only on main branch and when all other CI stepshave succeeded.
+- [ ] Add a HTTP route for `GET /:name` which responds with plain text,
+      `hello {name}`.
+- [ ] Add a deployment step that runs only on main branch and when all other CI
+      stepshave succeeded.
 - [ ] Configure the deployment for a web server.
 - [ ] Ensure that the deployment works.
 - [ ] Create a test for the endpoint.
