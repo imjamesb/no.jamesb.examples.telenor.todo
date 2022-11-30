@@ -58,3 +58,4 @@ A list of research articles that was used to prepare and create this project.
 - [*] Add a HTTP route for `GET /:name` which responds with plain text,
       `hello {name}`.
 - [*] Add a test for `GET /:name`.
+- [*] Define a database structure for the todo application.
