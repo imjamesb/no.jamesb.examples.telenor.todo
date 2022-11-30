@@ -1,0 +1,31 @@
+version: "3"
+services:
+  app:
+    command: "tail -f /dev/null"
+    user: "root"
+    build:
+      context: "."
+      dockerfile: "Dockerfile"
+      args:
+        VARIANT: "17-bullseye"
+        INSTALL_MAVEN: "true"
+        MAVEN_VERSION: "3.8.5"
+        INSTALL_GRADLE: "false"
+        NODE_VERSION: "lts/*"
+    depends_on:
+      - "postgres"
+    environment:
+      DB_NAME: "dev"
+      DB_USER: "dev"
+      DB_PASS: "dev"
+    volumes:
+      - "..:/workspace"
+  postgres:
+    image: "postgres:15-alpine"
+    restart: "unless-stopped"
+    environment:
+      POSTGRES_USER: "dev"
+      POSTGRES_PASSWORD: "dev"
+      POSTGRES_DB: "DEV"
+    volumes:
+      - "./.data/docker/pgdev:/var/lib/postgresql/data"

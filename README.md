@@ -56,6 +56,9 @@ A list of research articles that was used to prepare and create this project.
 - [*] Add CI to check linting and formatting.
 - [*] Configure the project for Springboot.
 - [*] Add a HTTP route for `GET /:name` which responds with plain text,
-      `hello {name}`.
+  `hello {name}`.
 - [*] Add a test for `GET /:name`.
 - [*] Define a database structure for the todo application.
+- [*] Create a docker-compose for local development.
+- [*] Create a postgres database in the docker-compose file for local development.
+- [ ] Use Spring ORM to recreate tha database structure in Java.
