@@ -1,0 +1,26 @@
+Table cached_user {
+  id int [pk, unique]
+  given_name text [not null]
+  family_name text [not null]
+  full_name text [not null]
+  avatar_url text
+}
+
+Table todo_list {
+  id int [pk, increment]
+  owner_id int [ref: > cached_user.id]
+  title text
+}
+
+Table todo_item {
+  id text [pk, increment]
+  list_id text [ref: > todo_list.id]
+  summary text [not null]
+  description text
+  // status values:
+  // 0 = unresolved
+  // 1 = doing
+  // 2 = done
+  status smallint [not null]
+}
+
