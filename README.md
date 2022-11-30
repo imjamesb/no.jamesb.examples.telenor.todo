@@ -54,23 +54,7 @@ A list of research articles that was used to prepare and create this project.
 - [*] Print Hello World and make it run.
 - [*] Add linter and formatter.
 - [*] Add CI to check linting and formatting.
-- [ ] Add a function that returns `Hello {name}`.
-- [ ] Configure the project for Springboot.
-- [ ] Add a HTTP route for `GET /:name` which responds with plain text,
+- [*] Configure the project for Springboot.
+- [*] Add a HTTP route for `GET /:name` which responds with plain text,
       `hello {name}`.
-- [ ] Add a deployment step that runs only on main branch and when all other CI
-      stepshave succeeded.
-- [ ] Configure the deployment for a web server.
-- [ ] Ensure that the deployment works.
-- [ ] Create a test for the endpoint.
-- [ ] Set up a local postgres development database.
-- [ ] Set up a postgres database connection in the code.
-- [ ] Write a function that writes to, and one that reads from the datbase.
-- [ ] Test the code.
-- [ ] Setup a postgres test database for the CI.
-- [ ] Create a production postgres database.
-- [ ] Double check that the production postgres database works.
-- [ ] Pass final CI/CD before writing code specific to the Todo app.
-- [ ] Create a database architecture for the todo app.
-- [ ] Create the first database migration to setup the database, and one to undo
-      the migration.
+- [*] Add a test for `GET /:name`.
