@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 11, 2016 10:24:48 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+  <class name="no.jamesb.examples.telenor.todo.models.CachedUser" table="cached_user">
+    <id name="id" type="java.lang.Integer">
+      <column name="id" />
+      <generator class="assigned" />
+    </id>
+    <property name="givenName" type="java.lang.String">
+      <column name="given_name" />
+    </property>
+    <property name="familyName" type="java.lang.String">
+      <column name="family_name" />
+    </property>
+    <property name="fullName" type="java.lang.String">
+      <column name="full_name" />
+    </property>
+    <property name="avatarUrl" type="java.lang.String">
+      <column name="avatar_url" />
+    </property>
+  </class>
+</hibernate-mapping>

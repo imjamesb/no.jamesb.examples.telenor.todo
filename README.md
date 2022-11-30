@@ -46,4 +46,4 @@ will create a RESTful API.
 - [*] Define a database structure for the todo application.
 - [*] Create a docker-compose for local development.
 - [*] Create a postgres database in the docker-compose file for local development.
-- [ ] Use Spring ORM to recreate tha database structure in Java.
+- [*] Use Spring ORM to recreate tha database structure in Java.
